@@ -1,0 +1,35 @@
+#cat1{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition-duration: 500ms;
+    float: left;
+    width: 30%;
+}
+#cat2{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: lightpink;
+    border-radius: 15px;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+}
+
+h3{
+}
+button {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    transition-duration: 0.5s;
+    border: 2px solid gray;
+    color: red;
+}
+button:hover {
+    border-radius: 20px;
+}
