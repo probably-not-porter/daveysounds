@@ -1,16 +1,35 @@
 *{
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
+body{
+    background-image: url("bg.png");
+    background-size: 100px 100px;
+}
+#header{
+    background-color: whitesmoke;
+    width: 350px;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px dashed gray;
+}
+#left{
+    float: left;
+    width: 50%;
+}
+#right{
+    float: right;
+    width: 50%;
+}
 #cat1{
     margin-left: 50px;
     margin-top: 50px;
     padding: 10px;
     background-color: lightgreen;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid darkslategrey;
     transition-duration: 500ms;
-    float: left;
-    width: 30%;
+    width: 80%;
 }
 #cat2{
     margin-left: 50px;
@@ -18,9 +37,8 @@
     padding: 10px;
     background-color: lightpink;
     border-radius: 15px;
-    border: 1px solid black;
-    float: left;
-    width: 30%;
+    border: 2px solid darkslategrey;
+    width: 80%;
 }
 #cat3{
     margin-left: 50px;
@@ -28,9 +46,8 @@
     padding: 10px;
     background-color: lightseagreen;
     border-radius: 15px;
-    border: 1px solid black;
-    float: left;
-    width: 30%;
+    border: 2px solid darkslategrey;
+    width: 80%;
 }
 #cat4{
     margin-left: 50px;
@@ -38,24 +55,28 @@
     padding: 10px;
     background-color: lightsalmon;
     border-radius: 15px;
-    border: 1px solid black;
-    float: left;
-    width: 30%;
+    border: 2px solid darkslategrey;
+    width: 80%;
 }
 
-h3{
+h2{
+    color: darkslategray;
 }
 button {
     width: 100px;
     height: 80px;
-    margin-right: 20px;
+    margin-right: 15px;
     transition-duration: 0.5s;
     border: 2px solid gray;
-    color: red;
+    color: darkslategray;
     margin-bottom: 10px;
     border-radius: 5px;
     font-size: 12px;
+    background-color: lightgray;
+    outline: none;
 }
 button:hover {
     border-radius: 20px;
+    background-color: whitesmoke;
 }
+
