@@ -1,3 +1,6 @@
+*{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
 #cat1{
     margin-left: 50px;
     margin-top: 50px;
@@ -19,6 +22,26 @@
     float: left;
     width: 30%;
 }
+#cat3{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+}
+#cat4{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: lightsalmon;
+    border-radius: 15px;
+    border: 1px solid black;
+    float: left;
+    width: 30%;
+}
 
 h3{
 }
@@ -29,6 +52,9 @@ button {
     transition-duration: 0.5s;
     border: 2px solid gray;
     color: red;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 button:hover {
     border-radius: 20px;
