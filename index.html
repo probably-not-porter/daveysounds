@@ -8,41 +8,54 @@
             type = "text/css"
             href = "style.css" 
         />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body>
         <div id=header>
             <h1>davey_sounds™</h1>
             <h3 id=tCount>🍔 twAMMICh_cOUNteRR: 0</h3>
         </div>
-        <div id="right">
-            <div id="cat1">
-                <h2>food</h2>
-                <button class="b" onclick="clickHandle('twammiches1.wav',)">twammiches1</button>
-                <button class="b" onclick="clickHandle('chicken_rice.wav',)">chicken_rice</button>
-                <button class="b" onclick="clickHandle('pastaaa.wav',)">pastaaa</button>
-                <button class="b" onclick="clickHandle('om_nom_nom.wav',)">omNomNomNom</button>
-                <button class="b" onclick="clickHandle('protein_cookie.wav',)">protein_cookie</button>
-            </div>
-            <div id="cat2">
-                <h2>not_real_words</h2>
-                <button class="b" onclick="clickHandle('wat.wav',)">wat</button>
-                <button class="b" onclick="clickHandle('deleted1.wav',)">buhleted</button>
-                <button class="b" onclick="clickHandle('yarp.wav',)">yarp</button>
-            </div>
+        <div id="nav">
+            <button id="n1" class="n" onclick="switchSet('cat1','n1')">food</button>
+            <button id="n2" class="n" onclick="switchSet('cat2','n2')">not_real_words</button>
+            <button id="n3" class="n" onclick="switchSet('cat3','n3')">exclamations</button>
+            <button id="n4" class="n" onclick="switchSet('cat4','n4')">misc</button>
+            <button id="n5" class="n" onclick="switchSet('cat5','n5')">seth_sounds</button>
         </div>
-        <div id="right">
-            <div id="cat3">
-                <h2>exclamations</h2>
-                <button class="b" onclick="clickHandle('whattheheck.wav',)">what_the_hek!</button>
-                <button class="b" onclick="clickHandle('yeah1.wav',)">yeauh!</button>
-                <button class="b" onclick="clickHandle('yeah2.wav',)">yeah. really.</button>
-            </div>
-            <div id="cat4">
-                <h2>seth_sounds</h2>
-                <button class="b" onclick="clickHandle('seth_laugh.wav',)">chuckle</button>
-                <button class="b" onclick="clickHandle('seth_boolean.wav',)"><3 booleans</button>
-            </div>
+        <div class="cat" id="cat1">
+            <h2>food</h2>
+            <button class="b" onclick="clickHandle('twammiches1.wav',)">twammiches1</button>
+            <button class="b" onclick="clickHandle('chicken_rice.wav',)">chicken_rice</button>
+            <button class="b" onclick="clickHandle('pastaaa.wav',)">pastaaa</button>
+            <button class="b" onclick="clickHandle('om_nom_nom.wav',)">omNomNomNom</button>
+            <button class="b" onclick="clickHandle('protein_cookie.wav',)">protein_cookie</button>
         </div>
+
+        <div class="cat" id="cat2">
+            <h2>not_real_words</h2>
+            <button class="b" onclick="clickHandle('wat.wav',)">wat</button>
+            <button class="b" onclick="clickHandle('deleted1.wav',)">buhleted</button>
+            <button class="b" onclick="clickHandle('yarp.wav',)">yarp</button>
+        </div>
+
+        <div class="cat" id="cat3">
+            <h2>exclamations</h2>
+            <button class="b" onclick="clickHandle('whattheheck.wav',)">what_the_hek!</button>
+            <button class="b" onclick="clickHandle('yeah1.wav',)">yeauh!</button>
+            <button class="b" onclick="clickHandle('yeah2.wav',)">yeah. really.</button>
+        </div>
+
+        <div class="cat" id="cat4">
+            <h2>misc</h2>
+            <button class="b" onclick="clickHandle('cuss.wav',)">cuss</button>
+        </div>
+
+        <div class="cat" id="cat5">
+            <h2>seth_sounds</h2>
+            <button class="b" onclick="clickHandle('seth_laugh.wav',)">chuckle</button>
+            <button class="b" onclick="clickHandle('seth_boolean.wav',)"><3 booleans</button>
+        </div>
+
         <script type="text/javascript" src="index.js"></script>
     </body>
 </html>
